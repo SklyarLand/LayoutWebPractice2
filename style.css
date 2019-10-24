@@ -93,6 +93,7 @@ main{
     top: -80px;
     background: #414146;
     height: 80px;
+    margin: 0 auto;
 }
 .card:first-child p{
     font-size: 20px;
@@ -149,8 +150,26 @@ main{
 .post img{
     max-width: 200px;
 }
-
-
+.brand-slider{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+.brand-slider h4{
+    margin-top: 40px;
+    background-color: #414146;
+    color: #ffea00;
+    display: inline-block;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.brand-slider p{
+    margin-bottom: 30px;
+}
 
 
 
@@ -201,4 +220,32 @@ main{
        top: 30px;
        right: 85px;
    }
+   .top-slide {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    .top-slide h2 {
+        font-size: 32px;
+    }
+    .top-slide div p {
+        font-size: 16px;
+    }
+    .specialize-container h2 {
+        font-size: 28px;
+    }
+    .specialize-container p {
+        font-size: 16px;
+    }
+    .specialize-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .bottom-card {
+        width: 256px;
+        margin: 0 auto;
+    }
+    .posts{
+        grid-template-columns: auto ;
+    }
 }
